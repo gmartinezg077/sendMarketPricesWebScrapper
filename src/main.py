@@ -1,6 +1,6 @@
 from sendMarketScrapper import StocksValuesScrapper;
 
-stocksScrapper = StocksValuesScrapper("SDC")
+stocksScrapper = StocksValuesScrapper()
 stocksScrapper.scrape()
 stocksScrapper.export2csv()
 
