@@ -103,3 +103,11 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# pycharm stuff
+
+misc.xml
+modules.xml
+profiles_settings.xml
+R_User_Library.xml
+*.iml
+vcs.xml
