@@ -1,33 +1,19 @@
-BME Send Web Scrapper
+# Práctica 1: BME Send Web Scrapper
 
+## Descripción
 
-Mercado Precios de Compra y Venta SEND: Deuda Pública
+Desarrollo realizado para la Practica 1 de la asignatura _Tipología y ciclo de vida de los datos_, del Máster en Ciencia de Datos de la UOC. 
+Consistente en el desarrollo de un algoritmo de _web scraping_ usando lenguaje Python para la extracción de datos de la web de Bolsas y Mercados Españoles: BME Renta Fija http://www.bmerf.es/ y la generación de un _dataset_ con los datos obtenidos.
 
-http://www.bmerf.es/esp/aspx/comun/posiciones.aspx?Mercado=SDP
+## Miembros del equipo
 
-Market = SDP
+Practica ha sido desarrollada por **Guillermo Javier Martínez-Iturralde Gómez (gmartinezg077@uoc.edu)**.
 
-Ficha:
+## Ficheros del código fuente
 
-http://www.bmerf.es/esp/aspx/Comun/FichaEmision.aspx?r=SEND&t=PUB&i=ES0000012B62
+* **src/main.py**: punto de entrada al proceso de scrapping.
+* **src/sendMarketScrapper.py**: implementación del scrapper a través de la clase _StocksValuesScrapper_.
 
-Precios de Compra y Venta SEND: Deuda Corporativa
+## Recursos
 
-Market = SDC
-
-http://www.bmerf.es/esp/aspx/comun/posiciones.aspx?Mercado=SDC
-
-Ficha: 
-
-http://www.bmerf.es/esp/aspx/Comun/FichaEmision.aspx?r=SEND&t=PRV&i=ES0313900401
-
-Precios de Compra y Venta SEND: Deuda Extranjera
-
-Market = SDE
-
-http://www.bmerf.es/esp/aspx/comun/posiciones.aspx?Mercado=SDE
-
-Ficha: 
-
-http://www.bmerf.es/esp/aspx/Comun/FichaEmision.aspx?r=SEND&t=EXT&i=DE0001104750
-
+* Subirats, L., Calvo, M. (2019). Web Scraping. Editorial UOC.
